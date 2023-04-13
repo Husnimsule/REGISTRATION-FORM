@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+
+h2{
+    font-size: bold;
+    text-align: center;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+ .regform{
+    align-items: center;
+    border: none;
+    width:30%;
+    height: 50vh;
+    margin: 5% 35% 3% 30%;
+    padding:15px  0px;
+    border-radius: 15px;
+     background-color: rgb(241, 237, 232);
+} 
+
+    label{
+        /* padding:0px 0px 0px 0px;
+        margin: 4% 0% 0% 0%; */
+        color: #000;
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+
+.condtn{
+    text-align: center;
+    /* margin-left:15%; */
+}
+
+@media screen and (min-width:270px) and (max-width:480px) {
+    .regform{
+        align-items: center;
+        border: none;
+        width:90%;
+        height: 30%;
+        margin: 10% 0% 3% 5%;
+        padding:15px ;
+        border-radius: 7%;
+    } 
+}
+
+    
+
+form{
+    align-items: center;
+    margin: 10% 0% 0% 10%;
+}
+input[type=text], select {
+    color: gray;
+    width: 80%;
+    padding: 12px 20px 20px 0px;
+    margin: 8px 0;
+    display: block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: bold;
+outline: none;
+}
+input[type=username], select{
+    background-color: rgb(241, 237, 232);
+    color: gray;
+    width: 80%;
+    padding: 2px 20px 5px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: left;
+    outline: none;
+
+}
+input[type=password], select{
+    background-color: rgb(241, 237, 232);
+    color: gray;
+    width: 80%;
+    padding: 2px 20px 5px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+.checked{
+    color: black;
+}
+.submit{
+    background-color: #46B069;
+    padding:10px;
+    border: none;
+    margin: 3% 0% 3% 0%;
+    align-items: center;
+    border-radius: 25px;
+    width: 80%;
+    height: 40px;
+    
+}
+p{
+ /* margin: 0px 0px 35px 0px;  */
+
+/* align-items: center; */
+font-style: 7px;
+font-size: 13x;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+}
+a{
+ color: #46B069;
+margin: 0% 0% 10% 0%;
+/* padding-top: 0%;
+font-weight: 500;
+font-style: bold; */
+}
+.submit a{
+    color: #f2f2f2;
+   margin: 0% 0% 10% 0%;
+   padding-top: 0%;
+   font-weight: 500;
+   font-style: bold;
+   }
+span{
+    color: black;
+}
